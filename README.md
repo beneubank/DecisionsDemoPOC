@@ -2,9 +2,9 @@
 Take in a customer Id, channel, max number of offers. Return a list of available offers for the customer in descending order of their score.
 
 ### :page_facing_up: Supporting Files 
-- *Customers.csv* - List of customers and their attributes
-- *Tranactions.csv* - Transactions to run with the given customer Id, channel and offers.
-- *Offers.json* - List of available offers, their properties, and a description of the rules that should be created with them.
+- [**Customers.csv**](https://raw.githubusercontent.com/beneubank/DecisionsDemoPOC/master/Customer.csv) - List of customers and their attributes
+- [**Tranactions.csv**](https://raw.githubusercontent.com/beneubank/DecisionsDemoPOC/master/Transactions.csv) - Transactions to run with the given customer Id, channel and offers.
+- [**Offers.json**](https://raw.githubusercontent.com/beneubank/DecisionsDemoPOC/master/Offers.json) - List of available offers, their properties, and a description of the rules that should be created with them.
 
 ### :1234: Detailed Process Steps
 1. Line from Transactions.csv is fed into service with Customer Id, Channel and the Max Number of Offers
